@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#204458"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".end">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="496dp"
+        android:layout_height="509dp"
+        app:srcCompat="@android:drawable/alert_light_frame"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="-34dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="393dp"
+
+        android:text="Classic Burger"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="453dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="422dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="404dp"
+        android:layout_height="61dp"
+
+        android:text="Ingredients: beef patty,bacon,cheese, lett,tomato,onion,pickles,bun"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="238dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="128dp"
+
+        android:text="Instructions:
+        1)Grill the beef patty and bacon.
+        2)Assemble the burger with cheese, lettuce, tomato, onion, and pickles.
+        3)Serve on a toasted bun."
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="383dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/pngwing_com__3_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
